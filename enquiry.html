@@ -141,28 +141,27 @@ img.img-responsive.logo {
      
         <div class="col-md-6">
            
-<div class="form">
-    <h1>Contact Us</h1>
-    <form action="https://formsubmit.co/kkirankumar9415@zohomail.in" method="POST">
-        <!-- Full Name Input -->
-        <input type="text" name="name" placeholder="Full Name" required>
-        
-        <!-- Email Input -->
-        <input type="email" name="email" placeholder="Email" required>
-        
-        <!-- Phone Number Input -->
-        <input type="number" name="phone" placeholder="Phone Number" required>
-        
-        <!-- Message Box -->
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        
-        <!-- Hidden Inputs -->
-        <input type="hidden" name="captcha" value="false">
-        <input type="hidden" name="template" value="box">
-        
-        <!-- Submit Button -->
-        <button type="submit">Submit</button>
-    </form>
+<div class="container">
+  <h1>Contact Us</h1>
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn">Submit Form</button>
+  </form>
 </div>
         </div>
         <div class="col-md-6">
